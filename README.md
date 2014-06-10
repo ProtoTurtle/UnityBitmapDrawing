@@ -9,10 +9,11 @@ By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPi
 texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 ```
 
-C# Extension Methods work in a way that adds methods to a existing class. To start using this, you only need to include the namespace with:
+C# Extension Methods work in a way that adds methods to a existing class. To start using this, you only need to include the namespace:
 ```
-using ProtoTurtle.BitmapDrawing;```
-
+using ProtoTurtle.BitmapDrawing;
+```
+Your Texture2D instances will then have all the new methods in them.
 
 
 <b>Usage:</b>
