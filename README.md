@@ -4,7 +4,7 @@ UnityBitmapDrawing
 Bitmap Drawing API extension methods for Unity 3D's Texture2D class.
 
 <b>What is it?</b>  
-By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPixels and GetPixels). This library extends that functionality with useful basic drawing operations.
+By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPixels and GetPixels). This library extends that functionality with useful basic drawing operations. It outputs pixel perfect and not anti-aliased bitmaps.
 ```csharp
 texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 ```
