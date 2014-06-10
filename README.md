@@ -9,7 +9,7 @@ By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPi
 texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 ```
 
-<b>Top left corner is 0, 0</b>  
+<b>x = 0, y = 0 is the top left corner</b>  
 This library uses the convention of having the left top corner of the bitmap be the 0, 0 position. By default, Texture2D uses the bottom left corner convention which can be confusing for bitmap operations.
   
   
