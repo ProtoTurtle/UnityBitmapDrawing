@@ -12,7 +12,7 @@ texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 <b>x = 0, y = 0 is the top left corner</b>  
 This library uses the convention of having the left top corner of the bitmap be the 0, 0 position. By default, Texture2D uses the bottom left corner convention which can be confusing for bitmap operations.
   
-![ScreenShot](https://raw.githubusercontent.com/ProtoTurtle/UnityBitmapDrawing/master/documentation/extensionMethods.png)
+![ScreenShot](https://raw.githubusercontent.com/ProtoTurtle/UnityBitmapDrawing/master/documentation/extensionMethods.png)  
 C# Extension Methods work in a way that adds methods to a existing class. To start using this, you only need to include the namespace:
 ```
 using ProtoTurtle.BitmapDrawing;
