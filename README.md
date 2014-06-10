@@ -16,7 +16,7 @@ using ProtoTurtle.BitmapDrawing;
 Your Texture2D instances will then have all the new methods in them.
 
 
-<b>Usage:</b>
+<b>Example</b>
 ```csharp
 using ProtoTurtle.BitmapDrawing;
 
