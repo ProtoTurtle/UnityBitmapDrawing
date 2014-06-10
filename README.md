@@ -9,6 +9,10 @@ By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPi
 texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 ```
 
+<b>Top left corner is 0, 0</b>
+This library uses the convention of having the left top corner of the bitmap be the 0, 0 position. By default, Texture2D uses the bottom left corner convention which can be confusing for bitmap operations.
+
+
 C# Extension Methods work in a way that adds methods to a existing class. To start using this, you only need to include the namespace:
 ```
 using ProtoTurtle.BitmapDrawing;
@@ -16,8 +20,9 @@ using ProtoTurtle.BitmapDrawing;
 Your Texture2D instances will then have all the new methods in them.
 
 <b>Features</b>
-* DrawLine() - Draws a line between two points
-* DrawCircle() - Draws a circle
+* DrawPixel(position, color) - Draws a pixel but with the top left corner being position (x = 0, y = 0)
+* DrawLine(start, end, color) - Draws a line between two points
+* DrawCircle(position, radius, color) - Draws a circle
 * DrawRectangle() - Draws a rectangle or a square
 * DrawFilledRectangle() - Draws a rectangle or a square filled with a color
 * FloodFill() - Starts a flood fill of a certaing at the point
