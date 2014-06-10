@@ -3,16 +3,16 @@ UnityBitmapDrawing
 
 Bitmap Drawing API extension methods for Unity 3D's Texture2D class.
 
-<b>What is it?</b>
+<b>What is it?</b>  
 By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPixels and GetPixels). This library extends that functionality with useful basic drawing operations.
 ```csharp
 texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
 ```
 
-<b>Top left corner is 0, 0</b>
+<b>Top left corner is 0, 0</b>  
 This library uses the convention of having the left top corner of the bitmap be the 0, 0 position. By default, Texture2D uses the bottom left corner convention which can be confusing for bitmap operations.
-
-
+  
+  
 C# Extension Methods work in a way that adds methods to a existing class. To start using this, you only need to include the namespace:
 ```
 using ProtoTurtle.BitmapDrawing;
