@@ -6,7 +6,7 @@ Bitmap Drawing API extension methods for Unity 3D's Texture2D class.
 This will add extension methods for drawing bitmap shapes like lines, circles and rectangles.
 
 
-*Usage:
+<b>Usage:</b>
 Texture2D texture = new Texture2D(1024, 1024, TextureFormat.RGB24, false, true);
 texture.filterMode = FilterMode.Point;
 texture.wrapMode = TextureWrapMode.Clamp;
