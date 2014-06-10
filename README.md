@@ -15,6 +15,12 @@ using ProtoTurtle.BitmapDrawing;
 ```
 Your Texture2D instances will then have all the new methods in them.
 
+<b>Features</b>
+* DrawLine() - Draws a line between two points
+* DrawCircle() - Draws a circle
+* DrawRectangle() - Draws a rectangle or a square
+* DrawFilledRectangle() - Draws a rectangle or a square filled with a color
+* FloodFill() - Starts a flood fill of a certaing at the point
 
 <b>Example</b>
 ```csharp
