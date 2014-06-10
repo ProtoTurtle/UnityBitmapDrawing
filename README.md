@@ -37,10 +37,16 @@ using ProtoTurtle.BitmapDrawing;
 Texture2D texture = new Texture2D(1024, 1024, TextureFormat.RGB24, false, true);
 texture.filterMode = FilterMode.Point;
 texture.wrapMode = TextureWrapMode.Clamp;
+texture.DrawFilledRectangle(new Rect(0, 0, TEXTURE_SIZE, TEXTURE_SIZE), Color.grey);
 
+texture.DrawCircle(100, 100, 20, Color.green);
 texture.DrawCircle(80, 150, 5, Color.blue);
-texture.DrawCircle(300, 300, 200, Color.yellow);
+texture.DrawCircle(300, 300, 200, Color.black);
 texture.FloodFill(100, 100, Color.green);
+texture.FloodFill(300, 300, Color.white);
 texture.DrawLine(new Vector2(10, 10), new Vector2(400, 200), Color.magenta);
+texture.DrawLine(new Vector2(400, 200), new Vector2(100, 200), Color.magenta);
 texture.Apply();
 ```
+Output from this example (cropped the image to fit):  
+![ScreenShot](https://raw.githubusercontent.com/ProtoTurtle/UnityBitmapDrawing/master/documentation/output.png)
