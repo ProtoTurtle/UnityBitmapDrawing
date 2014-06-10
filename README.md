@@ -3,7 +3,10 @@ UnityBitmapDrawing
 
 Bitmap Drawing API extension methods for Unity 3D's Texture2D class.
 
-This will add extension methods for drawing bitmap shapes like lines, circles and rectangles.
+<b>What is it?</b>
+By default, Texture2D only provides the methods SetPixel and GetPixel (and SetPixels and GetPixels). This library extends that functionality with useful basic drawing operations.
+texture.DrawLine(new Vector2(0,0), new Vector2(100,200), Color.red);
+
 
 
 <b>Usage:</b>
