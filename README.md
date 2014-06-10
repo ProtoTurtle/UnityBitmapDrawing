@@ -20,6 +20,7 @@ Your Texture2D instances will then have all the new methods in them.
 ```csharp
 using ProtoTurtle.BitmapDrawing;
 
+// ...
 
 Texture2D texture = new Texture2D(1024, 1024, TextureFormat.RGB24, false, true);
 texture.filterMode = FilterMode.Point;
