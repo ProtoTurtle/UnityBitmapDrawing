@@ -44,6 +44,10 @@ namespace Prototurtle.BitmapDrawing
         /// Draws a pixel just like SetPixel except 0,0 is the left top corner.</summary>
         public static void DrawPixel(this Texture2D texture, int x, int y, Color color)
         {
+            if (x < 0 || x > texture.width || y < 0 || y > texture.height)
+            {
+                return;
+            }
             texture.SetPixel(x, TransformToLeftTop_y(y, texture.height), color);
         }
 
