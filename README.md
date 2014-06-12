@@ -20,7 +20,7 @@ C# Extension Methods work in a way that adds methods to a existing class. To sta
 ```
 using ProtoTurtle.BitmapDrawing;
 ```
-Your Texture2D instances will then have all the new methods in them.
+Your Texture2D instances will then have all the new methods available.
 
 <b>Features</b>
 * DrawPixel(position, color) - Draws a pixel but with the top left corner being position (x = 0, y = 0)
