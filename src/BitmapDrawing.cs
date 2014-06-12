@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
-namespace Prototurtle.BitmapDrawing
+namespace ProtoTurtle.BitmapDrawing
 {
     /// <summary>
     /// A extension class for UnityEngine.Texture2D that provides a bitmap drawing API.
