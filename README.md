@@ -26,6 +26,7 @@ Your Texture2D instances will then have all the new methods in them.
 * DrawPixel(position, color) - Draws a pixel but with the top left corner being position (x = 0, y = 0)
 * DrawLine(start, end, color) - Draws a line between two points
 * DrawCircle(position, radius, color) - Draws a circle
+* DrawFilledCircle(position, radius, color) - Draws a circle filled with a color
 * DrawRectangle() - Draws a rectangle or a square
 * DrawFilledRectangle() - Draws a rectangle or a square filled with a color
 * FloodFill() - Starts a flood fill of a certaing at the point
