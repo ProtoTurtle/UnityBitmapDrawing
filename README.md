@@ -27,9 +27,9 @@ Your Texture2D instances will then have all the new methods in them.
 * DrawLine(start, end, color) - Draws a line between two points
 * DrawCircle(position, radius, color) - Draws a circle
 * DrawFilledCircle(position, radius, color) - Draws a circle filled with a color
-* DrawRectangle() - Draws a rectangle or a square
-* DrawFilledRectangle() - Draws a rectangle or a square filled with a color
-* FloodFill() - Starts a flood fill of a certaing at the point
+* DrawRectangle(rectangle, color) - Draws a rectangle or a square
+* DrawFilledRectangle(rectangle, color) - Draws a rectangle or a square filled with a color
+* FloodFill(position, color) - Starts a flood fill of a certaing at the point
 
 <b>Example</b>
 ```csharp
