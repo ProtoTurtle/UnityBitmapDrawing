@@ -152,7 +152,9 @@ namespace ProtoTurtle.BitmapDrawing
 
         /// <summary>
         /// Starts a flood fill at point startX, startY.
-        /// O(n) space - n= width*height - makes a copy of the bitmap temporarily in the memory
+		/// This is a pretty slow flood fill, biggest bottle neck is comparing two colors which happens
+		/// a lot. Should be a way to make it much faster.
+        /// O(n) space.  n = width*height - makes a copy of the bitmap temporarily in the memory
         /// </summary>
         /// <param name="texture"></param>
         /// <param name="startX"></param>
