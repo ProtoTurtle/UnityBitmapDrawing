@@ -53,3 +53,7 @@ texture.Apply();
 ```
 Output from this example (cropped the image to fit):  
 ![ScreenShot](https://raw.githubusercontent.com/ProtoTurtle/UnityBitmapDrawing/master/documentation/output.png)
+
+<b>Example project</b>
+Here is a ready-to-go Unity project for easy testing.
+https://github.com/ProtoTurtle/BitmapDrawingExampleProject
